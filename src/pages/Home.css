@@ -1,0 +1,54 @@
+
+
+/* Centrar el contenido */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la pantalla */
+    background-color: #f8f9fa;
+}
+
+/* Tarjeta de presentación */
+.profile-card {
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    border: 2px solid #ddd;
+}
+
+/* Título */
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #222;
+    margin-bottom: 15px;
+    
+}
+
+/* Imagen de perfil */
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #28a745; /* Borde verde */
+    margin-bottom: 15px;
+}
+
+/* Datos personales */
+.profile-info {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Resaltar información importante */
+.profile-info strong {
+    color: #28a745; 
+}
