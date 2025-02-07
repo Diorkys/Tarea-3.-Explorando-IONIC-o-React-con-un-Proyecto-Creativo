@@ -31,7 +31,7 @@ const ExperienciaPersonal: React.FC = () => {
               </div>
 
               <p className="experience-text">
-                En este video explico mi experiencia al realizar esta tarea, los desafíos que enfrenté y lo que aprendí durante el proceso.
+                En este video explico mi experiencia al realizar esta tarea, los desafíos que enfrenté y también lo que aprendí durante el proceso.
               </p>
             </IonCardContent>
           </IonCard>
